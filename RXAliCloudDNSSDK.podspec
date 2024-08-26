@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  s.dependency 'AlicloudHTTPDNS', :git => 'GitHub - aliyun/aliyun-specs: Aliyun Mobile Service CocoaPods specs.'
+  s.dependency 'AlicloudHTTPDNS', :git => 'https://github.com/aliyun/aliyun-specs.git'
     
 end
