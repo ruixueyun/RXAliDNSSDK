@@ -40,6 +40,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (NSString *)resolveAvailableIp:(NSString *)host;
 
+/**
+ * 设置region节点
+ */
+- (void)setRegion:(NSString *)region;
+
 @end
 
 NS_ASSUME_NONNULL_END
